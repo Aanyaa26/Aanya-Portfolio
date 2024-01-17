@@ -25,10 +25,7 @@ const Contact = () => {
           <h3 className="contact__title">Don't be Shy!</h3>
 
           <p className="contact__description">
-            Lorem ipsum dolor, sit amet consectetur adi pisicing elit. Deserunt,
-            aspernatur! Saepe sunt numquam earum , esse voluptatum dicta tenetur
-            laudantium quas praesentium eaque! Repudiandae quasidolorem eos
-            officia enim maiores repellendus!
+            Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
           <div className="contact__info">
             <div className="info__item">

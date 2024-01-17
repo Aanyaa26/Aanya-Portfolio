@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Aanya-s--Portfolio/static/css/main.4e6a05e1.css",
+    "main.js": "/Aanya-s--Portfolio/static/js/main.8f959d97.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Aanya-s--Portfolio/static/js/787.d4aba7ab.chunk.js",
+    "static/media/project-2.jpg": "/Aanya-s--Portfolio/static/media/project-2.0dfdb478a2db20f08cf8.jpg",
+    "static/media/astrology_portfolio.png": "/Aanya-s--Portfolio/static/media/astrology_portfolio.0e5604ba7080c9649612.png",
+    "static/media/me.jpg": "/Aanya-s--Portfolio/static/media/me.c164863eaf3fdf0b9f21.jpg",
+    "static/media/password_generator.png": "/Aanya-s--Portfolio/static/media/password_generator.e728ecdf08426362eba2.png",
+    "static/media/QR_code_generator.png": "/Aanya-s--Portfolio/static/media/QR_code_generator.5fc6ee8904ed14f3c4a4.png",
+    "static/media/landing_page.jpg": "/Aanya-s--Portfolio/static/media/landing_page.0f64e5a91e33e537cade.jpg",
+    "static/media/campus_hive.jpg": "/Aanya-s--Portfolio/static/media/campus_hive.6a3d97b418e6558de14d.jpg",
+    "static/media/close.svg": "/Aanya-s--Portfolio/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
+    "index.html": "/Aanya-s--Portfolio/index.html",
+    "main.4e6a05e1.css.map": "/Aanya-s--Portfolio/static/css/main.4e6a05e1.css.map",
+    "main.8f959d97.js.map": "/Aanya-s--Portfolio/static/js/main.8f959d97.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Aanya-s--Portfolio/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6a05e1.css",
+    "static/js/main.8f959d97.js"
+  ]
+}

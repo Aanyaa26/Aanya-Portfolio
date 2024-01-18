@@ -14,11 +14,12 @@ function App() {
       <Navbar />
       <Themes />
       <Routes>
-        {/* <Route path="/Aanya-s--Portfolio" element={<Home />} /> */}
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

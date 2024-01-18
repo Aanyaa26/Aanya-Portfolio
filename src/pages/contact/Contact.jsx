@@ -3,9 +3,6 @@ import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
   FaGithub,
-  FaLeetcode,
-  FaLinkedIn,
-  FaDribbble,
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
@@ -25,7 +22,9 @@ const Contact = () => {
           <h3 className="contact__title">Don't be Shy!</h3>
 
           <p className="contact__description">
-            Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            Feel free to get in touch with me. I am always open to discussing
+            new projects, creative ideas or opportunities to be part of your
+            visions.
           </p>
           <div className="contact__info">
             <div className="info__item">
@@ -46,44 +45,66 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__socials">
-            <a href="https://github.com/Aanyaa26" className="contact__social-link">
-              <FaGithub/>
+            <a
+              href="https://github.com/Aanyaa26"
+              className="contact__social-link"
+            >
+              <FaGithub />
             </a>
 
-            <a href="https://www.linkedin.com/in/aanya-sharma-2841b2248/" className="contact__social-link">
-              <FaLinkedinIn/>
+            <a
+              href="https://www.linkedin.com/in/aanya-sharma-2841b2248/"
+              className="contact__social-link"
+            >
+              <FaLinkedinIn />
             </a>
 
-            <a href="https://www.instagram.com/aannyaasharma/" className="contact__social-link">
-              <FaInstagram/>
+            <a
+              href="https://www.instagram.com/aannyaasharma/"
+              className="contact__social-link"
+            >
+              <FaInstagram />
             </a>
-
-            
           </div>
         </div>
 
         <form className="contact__form">
           <div className="form__input-group">
             <div className="form__input-div">
-              <input type="text" placeholder="Your Name" className="form__control"/>
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="form__control"
+              />
             </div>
             <div className="form__input-div">
-              <input type="email" placeholder="Your Email" className="form__control"/>
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="form__control"
+              />
             </div>
             <div className="form__input-div">
-              <input type="text" placeholder="Your Subject" className="form__control"/>
+              <input
+                type="text"
+                placeholder="Your Subject"
+                className="form__control"
+              />
             </div>
           </div>
           <div className="form__input-div">
-            <textarea placeholder="Your Message" className="form__control textarea"></textarea>
-            </div>
+            <textarea
+              placeholder="Your Message"
+              className="form__control textarea"
+            ></textarea>
+          </div>
 
-            <button className="button">
-              Send Message
-              <span className="button___icon contact__button-icon">
-                <FiSend/>
-              </span>
-            </button>
+          <button className="button">
+            Send Message
+            <span className="button___icon contact__button-icon">
+              <FiSend />
+            </span>
+          </button>
         </form>
       </div>
     </section>

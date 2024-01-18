@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:wght@300;400;700&display=swap");
+
+:root {
+  --first-color: hsl(155, 52%, 33%);
+  --title-color: hsl(0, 0%, 40%);
+  --text-color: hsl(0, 0%, 50%);
+  --body-color: hsl(0, 0, 100%);
+  --container-color: hsl(0, 3%, 72%);
+  --border-color: hsl(0, 0%, 87%);
+  --text-white: #fdfdfd;
+
+  --body-font: "Open Sans", sans-serif;
+  --second-font: "Poppins", sans-serif;
+
+  --big-font-size: 56px;
+  --h1-font-size: 50px;
+  --h2-font-size: 32px;
+  --h3-font-size: 24px;
+  --large-font-size: 18px;
+  --normal-font-size: 16px;
+  --small-font-size: 15px;
+  --smaller-font-size: 14px;
+  --tiny-font-size: 12px;
+
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
+}
+
+.dark-theme{
+
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 80%);
+  --body-color: black;
+  --container-color: hsl(0, 1%, 17%);
+  --border-color: hsl(0, 0%, 15%);
+  
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
+}
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--weight-700);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+    max-width:1140px ;
+    margin-inline: auto;
+    padding-inline:15px ;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.section {
+  padding-block: 70px;
+}
+
+.section__title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-800);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section__title span{
+  color: var(--first-color);
+}
+
+.button {
+  color: var(--title-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 70px 15px 35px;
+  border-radius: 35px;
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-500);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+  color: var(--text-white);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(100%);
+  background-color: var(--first-color);
+  z-index: -1;
+}
+
+.button:hover::before {
+transform: translateX(0);
+}    
+
+.button__icon {
+  background-color: var(--first-color);
+  position: absolute;
+  inset-block: -2px;
+  right: 0;
+  width: 55px;
+  border-radius: 50%;
+  color: var(--large-font-size);
+  text-align: center;
+  line-height: 60px;
+  color: var(--border-color);
+}
+
+

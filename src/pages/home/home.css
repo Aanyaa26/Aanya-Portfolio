@@ -1,0 +1,207 @@
+.home {
+    display: grid;
+    grid-template-columns: 4.32fr 7.68fr;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.home__img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 60px ;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3) ;
+    z-index: 1;
+}
+
+.home__data {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.home__title {
+    position: relative;
+    font-size: var(--h1-font-size);
+    line-height: 1.24;
+    padding-left: 70px;
+    margin-bottom: 20px; /* Add a margin bottom to separate from the button */
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30%; 
+    transform: translateY(-50%);
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--first-color);
+}
+
+.home__description {
+    line-height: 2.125;
+    margin: 16px 0 32px; /* Adjust margin */
+}
+
+.color__block{
+    position:fixed;
+    height: 200%;
+    width: 100%;
+    background-color: var(--first-color);
+    top: -50%;
+    left: -83%;
+    transform: rotate(-15deg);
+}
+
+.button {
+    display: inline-block;
+    align-items: center;
+    padding: 15px 60px 15px 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: var(--title-color);
+    border: 1px solid var(--first-color);
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--first-color);
+    color: #fff;
+}
+
+.button span {
+    margin-left: 5px;
+    transition: color 0.3s ease;
+}
+
+.button:hover span {
+    color: #fff;
+}
+
+/* Adjust the description styles */
+.home__description {
+    line-height: 2.125;
+    margin-top: 16px; /* Adjust margin-top to prevent hiding */
+    padding-bottom: 20px; /* Add padding to ensure space at the bottom */
+}
+
+
+
+
+
+/* .home {
+    grid-template-columns: 4.32fr 7.68fr;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.home__img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 8px hsla(0, 0%, 0%, 0.3);
+}
+
+.home__data {
+    max-width: 600px;
+    margin-inline: auto;
+    padding-top: 20px;
+}
+
+.home__title {
+    position: relative;
+    font-size: var(--h1-font-size);
+    line-height: 1.24;
+    padding-left: 70px;
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__title::before {
+    content: '';
+    position: absolute;
+    left: 22%;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--first-color);
+}
+
+.home__description {
+    line-height: 2.125;
+    margin-block: 16px 32px;
+}
+
+/* Add or update the button styles */
+/* .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: var(--first-color); /* Change to your desired button color */
+    /* color: #fff; /* Set the text color to contrast with the background */
+    /* border: none; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+    /* transition: background-color 0.3s ease; Add a smooth transition effect */ 
+
+/* } */
+
+/* .button:hover {
+    background-color: var(--first-color) ; */
+/* } */ 
+
+
+/* .home{
+    grid-template-columns: 4.32fr 7.68fr;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.home__img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 8px hsla(0, 0% , 0%, 0.3);
+}
+.home__data{
+    max-width: 600px;
+    margin-inline: auto;
+    padding-top: 20px;
+}
+
+.home__title{
+    position: relative;
+    font-size: var(--h1-font-size);
+    line-height: 1.24;
+    padding-left: 70px;
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__title::before{
+    content:'';
+    position: absolute;
+    left: 22%;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--first-color);
+}
+
+.home__description{
+    line-height:2.125;
+    margin-block: 16px 32px;
+} */

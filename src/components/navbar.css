@@ -78,7 +78,7 @@
   transform: rotate(-45deg) translate(1px, 1px);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
   .nav__menu {
     all: unset;
   }
